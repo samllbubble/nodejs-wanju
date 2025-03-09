@@ -19,8 +19,14 @@ export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Argo'} # 节点名称
 export second_port=${second_port:-''} # 第二端口，部分玩具支持设置第二端口
 
+# 自定义哪吒探针下载，也可默认0.18.2之前旧版本
+export NEZ_AMD_URL=${NEZ_AMD_URL:-'https://raw.githubusercontent.com/zhangbin0301/myfiles/refs/heads/main/agentX86'}
+export NEZ_ARM_URL=${NEZ_ARM_URL:-'https://raw.githubusercontent.com/zhangbin0301/myfiles/refs/heads/main/agentArm'}
+#export NEZ_AMD_URL=${NEZ_AMD_URL:-'https://github.com/kahunama/myfile/releases/download/main/nezha-agent'}
+#export NEZ_ARM_URL=${NEZ_ARM_URL:-'https://github.com/kahunama/myfile/releases/download/main/nezha-agent_arm'}
+
 # //订阅上传地址，需要与订阅服务器搭配，没有可以不填
-# export SUB_URL='https://xxx.eu.org/upload-上传密钥' # 自动上传节点到订阅服务器，需要与服务器搭配
+export SUB_URL='https://sub.smartdns.eu.org/upload-ea4909ef-7ca6-4b46-bf2e-6c07896ef338' # 自动上传节点到订阅服务器，需要与服务器搭配
 
 # //模拟启动游戏(去掉#开启)
 # export JAR_SH='moni'
