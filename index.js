@@ -5,7 +5,7 @@ const fs = require('fs');
 const { spawn } = require('child_process');
 
 const startScriptPath = './start.sh';
-// fs.chmodSync(startScriptPath, 0o755);
+fs.chmodSync(startScriptPath, 0o755);
 const subFilePath = FILE_PATH + '/log.txt';
 
 const startScript = spawn(startScriptPath);
