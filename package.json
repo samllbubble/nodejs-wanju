@@ -1,20 +1,15 @@
 {
-  "name": "jsr-ay",
+  "name": "Hello-World",
   "version": "1.0.0",
-  "description": "nodejs-for-r-ay",
+  "description": "Hello-World",
   "main": "index.js",
   "repository": "",
-  "author": "MITs",
+  "author": "MY",
   "license": "MIT",
   "private": false,
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "child_process": "^1.0.2"
-  },
-  "engines": {
-    "node": ">=14"
   }
 }
-
